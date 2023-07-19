@@ -1,0 +1,18 @@
+tạo 2 dòng lấy dữ liệu số biến(x1,x2,..) là x , số ràng buộc là y (2 inputField)
+VD:
+a x1 + b x2 + c x3 = d
+3 biến x1,x2,x3
+3 dấu 
+4 giá trị+kết quả
+:))10 cột
+
+a x1 + b x2 = c
+2 biến
+2 dấu
+3 giá trị+ kết quả
+===> số cột: columns= 3x+1
+===> số dòng: rows=y+1 (dòng đầu tiên có thể làm đặc biệt)
+gán bằng giá trị columns, rows
+từ columns,rows tạo nhiều inputfield ở dưới( tạo một empty object chứa position) xong instantiate ra, vị trí,góc xoay sẽ xem xét
+
+Tạo một ma trận trong code, chứa giá trị lấy được từ inputfield số dòng và số cột sẽ xem xét chỉnh sửa cho phù hợp
